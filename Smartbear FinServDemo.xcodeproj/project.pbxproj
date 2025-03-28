@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		639E38B92D96E94A00F8417C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639E38A02D96E94800F8417C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639E38A72D96E94800F8417C;
+			remoteInfo = "Smartbear FinServDemo";
+		};
+		639E38C32D96E94A00F8417C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639E38A02D96E94800F8417C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639E38A72D96E94800F8417C;
+			remoteInfo = "Smartbear FinServDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		639E38A82D96E94800F8417C /* Smartbear FinServDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smartbear FinServDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639E38B82D96E94A00F8417C /* Smartbear FinServDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smartbear FinServDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639E38C22D96E94A00F8417C /* Smartbear FinServDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smartbear FinServDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		639E38AA2D96E94800F8417C /* Smartbear FinServDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smartbear FinServDemo";
+			sourceTree = "<group>";
+		};
+		639E38BB2D96E94A00F8417C /* Smartbear FinServDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smartbear FinServDemoTests";
+			sourceTree = "<group>";
+		};
+		639E38C52D96E94A00F8417C /* Smartbear FinServDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smartbear FinServDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639E38A52D96E94800F8417C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E38B52D96E94A00F8417C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E38BF2D96E94A00F8417C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		639E389F2D96E94800F8417C = {
+			isa = PBXGroup;
+			children = (
+				639E38AA2D96E94800F8417C /* Smartbear FinServDemo */,
+				639E38BB2D96E94A00F8417C /* Smartbear FinServDemoTests */,
+				639E38C52D96E94A00F8417C /* Smartbear FinServDemoUITests */,
+				639E38A92D96E94800F8417C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639E38A92D96E94800F8417C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639E38A82D96E94800F8417C /* Smartbear FinServDemo.app */,
+				639E38B82D96E94A00F8417C /* Smartbear FinServDemoTests.xctest */,
+				639E38C22D96E94A00F8417C /* Smartbear FinServDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639E38A72D96E94800F8417C /* Smartbear FinServDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639E38CC2D96E94A00F8417C /* Build configuration list for PBXNativeTarget "Smartbear FinServDemo" */;
+			buildPhases = (
+				639E38A42D96E94800F8417C /* Sources */,
+				639E38A52D96E94800F8417C /* Frameworks */,
+				639E38A62D96E94800F8417C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				639E38AA2D96E94800F8417C /* Smartbear FinServDemo */,
+			);
+			name = "Smartbear FinServDemo";
+			packageProductDependencies = (
+			);
+			productName = "Smartbear FinServDemo";
+			productReference = 639E38A82D96E94800F8417C /* Smartbear FinServDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639E38B72D96E94A00F8417C /* Smartbear FinServDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639E38CF2D96E94A00F8417C /* Build configuration list for PBXNativeTarget "Smartbear FinServDemoTests" */;
+			buildPhases = (
+				639E38B42D96E94A00F8417C /* Sources */,
+				639E38B52D96E94A00F8417C /* Frameworks */,
+				639E38B62D96E94A00F8417C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639E38BA2D96E94A00F8417C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				639E38BB2D96E94A00F8417C /* Smartbear FinServDemoTests */,
+			);
+			name = "Smartbear FinServDemoTests";
+			packageProductDependencies = (
+			);
+			productName = "Smartbear FinServDemoTests";
+			productReference = 639E38B82D96E94A00F8417C /* Smartbear FinServDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		639E38C12D96E94A00F8417C /* Smartbear FinServDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639E38D22D96E94A00F8417C /* Build configuration list for PBXNativeTarget "Smartbear FinServDemoUITests" */;
+			buildPhases = (
+				639E38BE2D96E94A00F8417C /* Sources */,
+				639E38BF2D96E94A00F8417C /* Frameworks */,
+				639E38C02D96E94A00F8417C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639E38C42D96E94A00F8417C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				639E38C52D96E94A00F8417C /* Smartbear FinServDemoUITests */,
+			);
+			name = "Smartbear FinServDemoUITests";
+			packageProductDependencies = (
+			);
+			productName = "Smartbear FinServDemoUITests";
+			productReference = 639E38C22D96E94A00F8417C /* Smartbear FinServDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639E38A02D96E94800F8417C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					639E38A72D96E94800F8417C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					639E38B72D96E94A00F8417C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 639E38A72D96E94800F8417C;
+					};
+					639E38C12D96E94A00F8417C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 639E38A72D96E94800F8417C;
+					};
+				};
+			};
+			buildConfigurationList = 639E38A32D96E94800F8417C /* Build configuration list for PBXProject "Smartbear FinServDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639E389F2D96E94800F8417C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 639E38A92D96E94800F8417C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639E38A72D96E94800F8417C /* Smartbear FinServDemo */,
+				639E38B72D96E94A00F8417C /* Smartbear FinServDemoTests */,
+				639E38C12D96E94A00F8417C /* Smartbear FinServDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639E38A62D96E94800F8417C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E38B62D96E94A00F8417C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E38C02D96E94A00F8417C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639E38A42D96E94800F8417C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E38B42D96E94A00F8417C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639E38BE2D96E94A00F8417C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		639E38BA2D96E94A00F8417C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639E38A72D96E94800F8417C /* Smartbear FinServDemo */;
+			targetProxy = 639E38B92D96E94A00F8417C /* PBXContainerItemProxy */;
+		};
+		639E38C42D96E94A00F8417C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639E38A72D96E94800F8417C /* Smartbear FinServDemo */;
+			targetProxy = 639E38C32D96E94A00F8417C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		639E38CA2D96E94A00F8417C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		639E38CB2D96E94A00F8417C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639E38CD2D96E94A00F8417C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smartbear FinServDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smartbear-FinServDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639E38CE2D96E94A00F8417C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smartbear FinServDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smartbear-FinServDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		639E38D02D96E94A00F8417C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smartbear-FinServDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartbear FinServDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smartbear FinServDemo";
+			};
+			name = Debug;
+		};
+		639E38D12D96E94A00F8417C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smartbear-FinServDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartbear FinServDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smartbear FinServDemo";
+			};
+			name = Release;
+		};
+		639E38D32D96E94A00F8417C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smartbear-FinServDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smartbear FinServDemo";
+			};
+			name = Debug;
+		};
+		639E38D42D96E94A00F8417C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smartbear-FinServDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smartbear FinServDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639E38A32D96E94800F8417C /* Build configuration list for PBXProject "Smartbear FinServDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639E38CA2D96E94A00F8417C /* Debug */,
+				639E38CB2D96E94A00F8417C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639E38CC2D96E94A00F8417C /* Build configuration list for PBXNativeTarget "Smartbear FinServDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639E38CD2D96E94A00F8417C /* Debug */,
+				639E38CE2D96E94A00F8417C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639E38CF2D96E94A00F8417C /* Build configuration list for PBXNativeTarget "Smartbear FinServDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639E38D02D96E94A00F8417C /* Debug */,
+				639E38D12D96E94A00F8417C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639E38D22D96E94A00F8417C /* Build configuration list for PBXNativeTarget "Smartbear FinServDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639E38D32D96E94A00F8417C /* Debug */,
+				639E38D42D96E94A00F8417C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639E38A02D96E94800F8417C /* Project object */;
+}
