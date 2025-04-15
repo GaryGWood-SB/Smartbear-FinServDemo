@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		639E38F82D96F2E400F8417C /* Bugsnag in Frameworks */ = {isa = PBXBuildFile; productRef = 639E38F72D96F2E400F8417C /* Bugsnag */; };
+		639E38FA2D96F2E400F8417C /* BugsnagNetworkRequestPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 639E38F92D96F2E400F8417C /* BugsnagNetworkRequestPlugin */; };
+		639E38FF2D96F90700F8417C /* BugsnagPerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 639E38FE2D96F90700F8417C /* BugsnagPerformance */; };
+		639E39012D96F90700F8417C /* BugsnagPerformanceSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 639E39002D96F90700F8417C /* BugsnagPerformanceSwift */; };
+		639E39032D96F90700F8417C /* BugsnagPerformanceSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 639E39022D96F90700F8417C /* BugsnagPerformanceSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		639E38B92D96E94A00F8417C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639E38FA2D96F2E400F8417C /* BugsnagNetworkRequestPlugin in Frameworks */,
+				639E39012D96F90700F8417C /* BugsnagPerformanceSwift in Frameworks */,
+				639E39032D96F90700F8417C /* BugsnagPerformanceSwiftUI in Frameworks */,
+				639E38F82D96F2E400F8417C /* Bugsnag in Frameworks */,
+				639E38FF2D96F90700F8417C /* BugsnagPerformance in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +125,11 @@
 			);
 			name = "Smartbear FinServDemo";
 			packageProductDependencies = (
+				639E38F72D96F2E400F8417C /* Bugsnag */,
+				639E38F92D96F2E400F8417C /* BugsnagNetworkRequestPlugin */,
+				639E38FE2D96F90700F8417C /* BugsnagPerformance */,
+				639E39002D96F90700F8417C /* BugsnagPerformanceSwift */,
+				639E39022D96F90700F8417C /* BugsnagPerformanceSwiftUI */,
 			);
 			productName = "Smartbear FinServDemo";
 			productReference = 639E38A82D96E94800F8417C /* Smartbear FinServDemo.app */;
@@ -195,6 +213,10 @@
 			);
 			mainGroup = 639E389F2D96E94800F8417C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				639E38F62D96F2E400F8417C /* XCRemoteSwiftPackageReference "bugsnag-cocoa" */,
+				639E38FD2D96F90700F8417C /* XCRemoteSwiftPackageReference "bugsnag-cocoa-performance" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 639E38A92D96E94800F8417C /* Products */;
 			projectDirPath = "";
@@ -396,13 +418,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Smartbear FinServDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = L357KP5MD5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smartbear-FinServDemo-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Smartbear FinServ Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,13 +451,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Smartbear FinServDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = L357KP5MD5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smartbear-FinServDemo-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Smartbear FinServ Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,6 +584,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		639E38F62D96F2E400F8417C /* XCRemoteSwiftPackageReference "bugsnag-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bugsnag/bugsnag-cocoa.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.32.2;
+			};
+		};
+		639E38FD2D96F90700F8417C /* XCRemoteSwiftPackageReference "bugsnag-cocoa-performance" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bugsnag/bugsnag-cocoa-performance";
+			requirement = {
+				kind = exactVersion;
+				version = 1.11.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		639E38F72D96F2E400F8417C /* Bugsnag */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 639E38F62D96F2E400F8417C /* XCRemoteSwiftPackageReference "bugsnag-cocoa" */;
+			productName = Bugsnag;
+		};
+		639E38F92D96F2E400F8417C /* BugsnagNetworkRequestPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 639E38F62D96F2E400F8417C /* XCRemoteSwiftPackageReference "bugsnag-cocoa" */;
+			productName = BugsnagNetworkRequestPlugin;
+		};
+		639E38FE2D96F90700F8417C /* BugsnagPerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 639E38FD2D96F90700F8417C /* XCRemoteSwiftPackageReference "bugsnag-cocoa-performance" */;
+			productName = BugsnagPerformance;
+		};
+		639E39002D96F90700F8417C /* BugsnagPerformanceSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 639E38FD2D96F90700F8417C /* XCRemoteSwiftPackageReference "bugsnag-cocoa-performance" */;
+			productName = BugsnagPerformanceSwift;
+		};
+		639E39022D96F90700F8417C /* BugsnagPerformanceSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 639E38FD2D96F90700F8417C /* XCRemoteSwiftPackageReference "bugsnag-cocoa-performance" */;
+			productName = BugsnagPerformanceSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 639E38A02D96E94800F8417C /* Project object */;
 }

@@ -2,10 +2,11 @@
 //  ContentView.swift
 //  Smartbear FinServDemo
 //
-//  Created by Gary Wood on 3/28/25.
-//
+//  Created by default.
+//  This view is not used in the demo app
 
 import SwiftUI
+import Bugsnag
 
 struct ContentView: View {
     var body: some View {

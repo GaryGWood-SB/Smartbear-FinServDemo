@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bugsnag</key>
+	<dict>
+		<key>apiKey</key>
+		<string>65a1e792c881fde1d70ea99553e2616f</string>
+		<key>autoInstrumentAppStarts</key>
+		<string>YES</string>
+		<key>performance</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>
